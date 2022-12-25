@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/App.css";
-import styles from "../styles/appStyles.module.css";
+import styles from "./styles/appStyles.module.css";
 
 const App = () => {
   const heading = {
@@ -9,7 +9,9 @@ const App = () => {
   };
   return (
     <div id="main">
-      <h1 className="success">Success</h1>
+      <h1 className="success" style={styles}>
+        Success
+      </h1>
       <h1 id="error" style={heading}>
         Error
       </h1>

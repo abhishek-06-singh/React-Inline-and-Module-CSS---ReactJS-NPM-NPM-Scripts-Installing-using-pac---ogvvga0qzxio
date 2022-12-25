@@ -9,9 +9,7 @@ const App = () => {
   };
   return (
     <div id="main">
-      <h1 className="success" style={styles}>
-        Success
-      </h1>
+      <h1 style={styles}>Success</h1>
       <h1 id="error" style={heading}>
         Error
       </h1>
